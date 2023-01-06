@@ -1,6 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  max-height: 100vh;
 }
+
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +15,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+img {
+  max-width: 75%;
+  max-height: 75%
 }
 
 .App-header {
@@ -36,3 +45,4 @@
     transform: rotate(360deg);
   }
 }
+
